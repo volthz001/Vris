@@ -1,0 +1,21 @@
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15406B"/>
+      <stop offset="100%" stop-color="#0A2540"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E0A8"/>
+      <stop offset="100%" stop-color="#00A37E"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10,10) scale(0.5)">
+    <path d="M100 14 L172 38 L172 96 C172 142 140 178 100 192 C60 178 28 142 28 96 L28 38 Z" fill="url(#navyGrad2)"/>
+    <circle cx="100" cy="98" r="38" fill="none" stroke="url(#emeraldGrad2)" stroke-width="7"/>
+    <path d="M82 98 L94 110 L120 80" fill="none" stroke="url(#emeraldGrad2)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="120" y="68" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#0A2540">Vris</text>
+  <text x="121" y="90" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#667085">HRIS di genggaman</text>
+</svg>

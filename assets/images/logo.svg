@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15406B"/>
+      <stop offset="100%" stop-color="#0A2540"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E0A8"/>
+      <stop offset="100%" stop-color="#00A37E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield body -->
+  <path d="M100 14 L172 38 L172 96
+           C172 142 140 178 100 192
+           C60 178 28 142 28 96
+           L28 38 Z"
+        fill="url(#navyGrad)"/>
+
+  <!-- Inner shield highlight ring -->
+  <path d="M100 26 L160 46 L160 96
+           C160 134 134 164 100 178
+           C66 164 40 134 40 96
+           L40 46 Z"
+        fill="none" stroke="#2E5A85" stroke-width="2" opacity="0.5"/>
+
+  <!-- Verified location ring -->
+  <circle cx="100" cy="98" r="38" fill="none" stroke="url(#emeraldGrad)" stroke-width="7"/>
+
+  <!-- Checkmark -->
+  <path d="M82 98 L94 110 L120 80"
+        fill="none" stroke="url(#emeraldGrad)" stroke-width="9"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
